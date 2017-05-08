@@ -1,0 +1,14 @@
+{
+  "name": "bootcamp_day_0",
+  "version": "1.0.0",
+  "description": "a program to calculate the prime number of a N number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Idrees Ibraheem",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
