@@ -31,8 +31,8 @@ describe("Determine the prime of numbers from 0 to n", function() {
 	it("should return 'enter number greater than 1' for 1", function(){
 		expect(getPrimes(1)).toEqual([])
 	});
-	it("should return 'not a prime numnber' for 0", function(){
-		expect(getPrimes(0)).toEqual('Zero not a prime number');
+	it("should return '[ 2, 3, 5, 7, 11, 13, 17, 19, 23 ]' for 25", function(){
+		expect(getPrimes(25)).toEqual('[ 2, 3, 5, 7, 11, 13, 17, 19, 23 ]');
 	});
 	
 });
